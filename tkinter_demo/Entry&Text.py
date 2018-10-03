@@ -2,7 +2,7 @@ import tkinter as tk
 
 window = tk.Tk()
 window.title('Entry&Text')
-# 窗口尺寸
+# 窗口尺寸200
 window.geometry('200x200')
 e = tk.Entry(window, show='*')
 e.pack()
